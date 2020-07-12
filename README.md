@@ -25,7 +25,7 @@
             <img src="https://img.shields.io/github/last-commit/AmateurPanda92/pokemon-rby-dx?color=blue&label=last%20updated">
         </a>
         <a href="https://www.github.com/AmateurPanda92/pokemon-rby-dx/releases/latest">
-            <img src="https://img.shields.io/github/v/release/AmateurPanda92/pokemon-rby-dx?color=blueviolet&label=latest%20version">
+            <img src="https://img.shields.io/github/v/release/AmateurPanda92/pokemon-rby-dx?color=blueviolet&label=latest%20release">
         </a>
         <a href="#licence">
             <img src="https://img.shields.io/badge/licence-%C2%A9%20%2B%20MIT-crimson">
