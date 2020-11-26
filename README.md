@@ -21,7 +21,7 @@
         <a href="https://www.github.com/andidavies92/pokemon-rby-dx/commit/e1661bd0de07129225c6af9b5e9706db87920902">
             <img src="https://img.shields.io/badge/initial%20commit-5th%20september%202019-brightgreen">
         </a>
-        <a href="https://www.github.com/AmateurPanda92/pokemon-rby-dx/commits/master">
+        <a href="https://www.github.com/AmateurPanda92/pokemon-rby-dx/commits/main">
             <img src="https://img.shields.io/github/last-commit/AmateurPanda92/pokemon-rby-dx?color=blue&label=last%20updated">
         </a>
         <a href="https://www.github.com/AmateurPanda92/pokemon-rby-dx/releases/latest">
