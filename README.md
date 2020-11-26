@@ -305,10 +305,12 @@ If you’re not a PC user, mGBA has builds for macOS and Ubuntu too, so that sho
     </tr>
     <tr>
         <td width="200px">
-            <img src="farley.png" width="200px">
+            <a href="https://www.github.com/JackalOfTime">
+               <img src="farley.png" width="200px">
+            </a>
         </td>
         <td>
-            <h4>Farley Lapenna</h4>
+            <h4>Farley Lapenna (<a href="https://www.github.com/JackalOfTime">@JackalOfTime</a>)</h4>
             <h5>Lead artist</h5>
             <p>Fresh out of a game design degree, Farley is looking to cut her teeth on some real-world game art projects, so I invited her to join me on this fun little fan hack, to add some open-source goodness to her growing portfolio.</p>
         </td>
