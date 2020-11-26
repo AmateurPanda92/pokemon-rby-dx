@@ -140,7 +140,11 @@ The following is a fairly comprehensive, but not necessarily exhaustive, list of
   * **Select button quick items** (e.g. for bicycle).
   * **Press A to interact with objects** like cuttable trees, boulders, etc.
   * **Signposts** that appear onscreen **when you enter a new area**.
-* **UX behaviour tweaks** to address minor friction points that negatively affect the player’s enjoyment.
+  * [**Run by holding ‘B’**](https://www.github.com/pret/pokered/wiki/Running-Shoes), similar to the running shoes introduced in gen-3.
+  * [**Turning to face enemy trainers when seen**](https://www.github.com/pret/pokered/wiki/Turn-to-face-enemy-trainers-when-seen-by-them), introduced in the non-remake 3<sup>rd</sup>-gen games.
+* **UX behaviour tweaks** and other **quality-of-life improvements** to address minor friction points that negatively affect the player’s enjoyment, for example:
+  * Allowing the player to **cancel playing the bicycle music** by pressing ‘B’ when riding the bike to revert to the music attributed to the area they are in, similar to the effect moving into a new area while still on the bike would have.
+  * Removing or [**reducing the artificial save delay**](https://www.github.com/pret/pokered/wiki/Remove-Artificial-Save-Delay).
 
 ### Events
 
@@ -150,7 +154,7 @@ The following is a fairly comprehensive, but not necessarily exhaustive, list of
 
 ### Extras
 
-* **Cameos and Easter eggs**? Maybe some anime references? _“Ash was here”_ for instance?
+* **Cameos and Easter eggs**? Maybe some anime references? _“Ash was here”_ for instance? Staff and contributor battles?
 * I’ve often thought about developing **a version of the gen-I games which closely matches the anime**, so maybe this will serve as a good base for that when this project is largely finished? Who knows!
 * After beating the game, maybe **provide limited access to Johto via the SS Aqua** like at the end of Gold/Silver/Crystal, to tie the generations together? Maybe [v2](#Roadmap) could let you play _all_ of Johto with similar enhancements? Also Gold and Silver still had DMC compatibility, so the gen-II games didn’t make use of all colour that was available to it, nor did it use the extra RAM and processing power. Crystal made use of some of the extra RAM or processing power I believe, in order to do the animated in-battle Pokémon sprites but I don’t think it added any additional colour usage (unless I can find evidence to the contrary), so Johto could equally be enhanced colour and graphics wise.
 * [v3](#Roadmap) could include **support for trading and battling with gen-III**, possibly by developing some custom hardware that bridges the different link cable versions, which would allow for genuine trading between generations so that genuine gen-I/II Pokémon could be traded forward to official gen-III games.
