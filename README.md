@@ -35,6 +35,13 @@
 
 ---
 
+<div align="center">
+   <h3><b>Sister project:</b> <a href="https://www.github.com/AmateurPanda92/understanding-pokemon-red-english-translation">Pokémon Red – Detailed Disassembly Documentation 📚</a></h3>
+   <p>I recently stumbled upon <a href="https://www.github.com/pokemium">@pokemium</a>’s superb, albeit WIP, resource <a href="https://www.github.com/pokemium/understanding-pokemon-red">詳解ポケモン赤 / “Understanding Pokémon Red”</a> and I’ve started work on translating it to English (the repo linked above). I’ll work on continuing this translation effort as I go through this project, as in doing so, it’ll become more useful as source code documentation to anyone working on RBY DX, and I may even be able to contribute back some original research of my own to help fill-in any gaps in the original repo’s information.</p>
+</div>
+
+---
+
 _(**tl;dr** – if you just want to try the ROMs out, the [releases](https://github.com/andidavies92/pokemon-rby-dx/releases) tab contains pre-compiled binaries of each version which you can download as is and try-out in any decent GBC emulator.)_
 
 This is a work-in-progress fan-made [ROM hack](https://en.wikipedia.org/wiki/ROM_hacking) of the [first-generation](https://en.wikipedia.org/wiki/Pok%C3%A9mon_(video_game_series)#First_generation_(1996%E2%80%931999)) [Pokémon](https://en.wikipedia.org/wiki/Pok%C3%A9mon) [games](https://en.wikipedia.org/wiki/Pokémon_(video_game_series)), which were originally developed for the [Nintendo](https://en.wikipedia.org/wiki/Nintendo) [Game Boy (DMG)](https://en.wikipedia.org/wiki/Game_Boy) and are planned here to be enhanced specifically for the Nintendo [Game Boy Color (GBC)](https://en.wikipedia.org/wiki/Game_Boy_Color). All backwards compatibility with the original Game Boy will be removed so that it doesn’t hold-back what the games might be capable of imagining they were originally intended to be GBC-exclusive titles.
