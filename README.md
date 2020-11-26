@@ -212,8 +212,9 @@ _(Note that you can also use the Cygwin-based setup from the [Windows 8.1 and be
 5. Run the following in PowerShell to set WSL 2 as the default version:
    * `wsl --set-default-version 2`
 6. Install your Linux distribution of choice from the Microsoft Store application.
-7. Once installed, open the Linux distro and follow the on-screen instructions to perform initial OS setup and create a user for yourself.
-8. Follow the [Linux](#linux) first-time setup instructions for the distro you chose.
+7. Reboot your machine before continuing to allow WSL to finish installing itself.
+8. Once installed, open the Linux distro and follow the on-screen instructions to perform initial OS setup and create a user for yourself.
+9. Follow the [Linux](#linux) first-time setup instructions for the distro you chose.
 
 ##### Windows 8.1 and below
 
