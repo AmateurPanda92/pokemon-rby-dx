@@ -8,6 +8,8 @@
         •
         <a href="#development-guidelines">Development guidelines</a>
         •
+        <a href="#wiki">Wiki</a>
+        •
         <a href="#contributors">Contributors</a>
         •
         <a href="#disclaimer">Disclaimer</a>
@@ -60,7 +62,7 @@ As it stands, this project is very much a work-in-progress – so much so that t
 * _“Pokemon Red (UE) [S][!].gb”_ (MD5: `3d45c1ee9abd5738df46d2bdda8b57dc`)
 * _“Pokemon Blue (UE) [S][!].gb”_ (MD5: `50927e843568814f7ed45ec4f944bd8b`)
 
-I will always be keeping this readme up-to-date with the state of the codebase, so this will remain a reliable single point-of-truth for the project’s status. Note that this project is primarily a learning tool for me to teach myself GB(C) development and gain more experience with coding in assembly. That being said, I more than welcome contributors to come and get involved, so please do get in-touch (probably via [Twitter](https://www.twitter.com/andidavies92) is best) if you’re interested in helping-out!
+I will always be keeping this README up-to-date with the state of the codebase, so this will remain a reliable single point-of-truth for the project’s status. Note that this project is primarily a learning tool for me to teach myself GB(C) development and gain more experience with coding in assembly. That being said, I more than welcome contributors to come and get involved, so please do get in-touch (probably via [Twitter](https://www.twitter.com/andidavies92) is best) if you’re interested in helping-out!
 
 ## Table of contents
 
@@ -89,6 +91,12 @@ I will always be keeping this readme up-to-date with the state of the codebase, 
         * [Termux](#termux)
     * [To build](#to-build)
   * [Running](#running)
+* [Wiki](#wiki)
+  * [Assets](#assets)
+  * [Contributions](#contributions)
+  * [Research](#research)
+  * [Resources](#resources)
+  * [Specifications](#specifications)
 * [Contributors](#contributors)
   * [Project staff](#project-staff)
   * [pret repos’ contributors](#pret-repos-contributors)
@@ -297,6 +305,45 @@ As far as I know, [mGBA](https://www.mgba.io/) is the most accurate GBx emulator
 
 If you’re not a PC user, mGBA has builds for macOS and Ubuntu too, so that should cover most bases if you develop on a different platform. There are tonnes of good open-source emulators out there though, so do some digging and I’m sure you’ll find one that does the job…
 
+## Wiki
+
+There is now a [repository wiki](https://www.github.com/AmateurPanda92/pokemon-rby-dx/wiki) that contains more detailed information about project specifics than on this README. We’ll add to it as and when there are new aspects of the project that need documenting, and it’ll eventually become a one-stop shop for information pertaining to the project. It might even be possible in future for any original research to be shared back to the wider ROM hacking community too.
+
+At the time of writing (5<sup>th</sup> January 2021), these are the existing sections and sub-pages on the wiki…
+
+### [Assets](https://www.github.com/AmateurPanda92/pokemon-rby-dx/wiki/Assets)
+
+Any newly-designed graphical assets are documented here for quick reference, as well as a evision history for each:
+
+* [**Pokémon sprites**](https://www.github.com/AmateurPanda92/pokemon-rby-dx/wiki/Pokémon-Sprites)
+
+### [Contributions](https://www.github.com/AmateurPanda92/pokemon-rby-dx/wiki/Contributions)
+
+If you’d like to contribute towards this project, please follow these guidelines to ensure we are moving in a unified direction with consistent code and assets:
+
+* [**Artwork**](https://www.github.com/AmateurPanda92/pokemon-rby-dx/wiki/Artwork)
+
+### [Research](https://www.github.com/AmateurPanda92/pokemon-rby-dx/wiki/Research)
+
+The outcome of any research work is recorded here for future reference. If any of the research here is new, we can contribute it back to the community in due course as well:
+
+* [**Palette limitations**](https://www.github.com/AmateurPanda92/pokemon-rby-dx/wiki/Palette-Limitations)
+
+### [Resources](https://www.github.com/AmateurPanda92/pokemon-rby-dx/wiki/Resources)
+
+A variety of useful resources are listed here, which could be anything from external documentation to software tools:
+
+* [**General**](https://www.github.com/AmateurPanda92/pokemon-rby-dx/wiki/Resources#general)
+* [**Documentation**](https://www.github.com/AmateurPanda92/pokemon-rby-dx/wiki/Resources#documentation)
+* [**Software tools**](https://www.github.com/AmateurPanda92/pokemon-rby-dx/wiki/Resources#software-tools)
+
+### [Specifications](https://www.github.com/AmateurPanda92/pokemon-rby-dx/wiki/Specifications)
+
+A technical reference for any existing hardware or software specifications relevant to the game, as well as for documenting any new data structures, algorithms, etc.:
+
+* [**GBC hardware**](https://www.github.com/AmateurPanda92/pokemon-rby-dx/wiki/GBC-Hardware)
+* [**Pokémon graphics**](https://www.github.com/AmateurPanda92/pokemon-rby-dx/wiki/Pokémon-Graphics)
+
 ## Contributors
 
 ### Project staff
@@ -340,11 +387,11 @@ In order to download and run this game, you **must** have purchased a legal copy
 
 All code, assets and design elements (including but not limited to graphics/artwork, audio data / music, story and characters) that were present in the original unedited ROMs and their associated disassemblies remain the intellectual property of their original copyright holders:
 
-* **Copyright © Nintendo 1995–2020**
-* **Copyright © Creatures Inc. 1995–2020**
-* **Copyright © GAME FREAK Inc. 1995–2020**
+* **Copyright © Nintendo 1995–2021**
+* **Copyright © Creatures Inc. 1995–2021**
+* **Copyright © GAME FREAK Inc. 1995–2021**
 
 Portions of this code and assets (including but not limited to graphics/artwork and audio data / music) that has been altered from the original version of the game, are released until an [MIT licence](LICENCE):
 
-* **Copyright © Andi Emma Davies 2020**
-* **Copyright © Farley Lapenna 2020**
+* **Copyright © Andi Emma Davies 2020–21**
+* **Copyright © Farley Lapenna 2020–21**
