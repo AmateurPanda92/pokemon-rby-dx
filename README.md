@@ -149,6 +149,12 @@ The following is a fairly comprehensive, but not necessarily exhaustive, list of
 * **Tweaked trainer sprites**, to be more in-line with the anime aesthetic that the new Pokémon sprites will be designed to adhere to.
 * **Antialiased text** and other UI elements like **menu and textbox borders** (might be too ambitious). Maybe support for [variable-width fonts](https://www.youtube.com/watch?v=xm7Iv4aKFGk)?
 
+### Audio
+
+* Sound will largely remain unchanged. It should, however, be possible to **improve the sound quality of Pikachu’s cry and voice clips** in Yellow: can double the sample rate, since the game can now use the GBC-exclusive double CPU clock speed and can utilise more ROM banks to store higher-resolution samples. Might also be able to squeeze some less harsh downsampling out of the effective 2-bit (variable amplitude) bit depth by playing around with different dithering methods and input levels when re-encoding the sound data. This is all assuming I can get hold of the original, uncompressed voice samples from somewhere ([Retro Game Mechanics Explained](https://www.youtube.com/watch?v=fooSxCuWvZ4) managed to find them somewhere).
+* There appears to exist at least one **unused hidden track** in the original ROM data, which could potentially be used for a new feature addition to the game.
+* Could maybe port the **2<sup>nd</sup>-gen games’ audio engine** over, in order to be able to use the richer instrument sounds (possibly with a user option to select which version they’d prefer to hear).
+
 ### UI/UX
 
 * Add **UI niceties** that were added in future generations, such as:
@@ -157,6 +163,7 @@ The following is a fairly comprehensive, but not necessarily exhaustive, list of
   * **Signposts** that appear onscreen **when you enter a new area**.
   * [**Run by holding ‘B’**](https://www.github.com/pret/pokered/wiki/Running-Shoes), similar to the running shoes introduced in gen-3.
   * [**Turning to face enemy trainers when seen**](https://www.github.com/pret/pokered/wiki/Turn-to-face-enemy-trainers-when-seen-by-them), introduced in the non-remake 3<sup>rd</sup>-gen games.
+  * **Turbo mode** that makes use of the GBC’s double clock speed compared to the DMG, giving players the option to speed-up gameplay like they’d be able to if using an emulator. It might not be possible to double the clock speed at run time, so one way this might be possible is to always run the game at double clock speed and limit the speed at which graphics and audio are updated.
 * **UX behaviour tweaks** and other **quality-of-life improvements** to address minor friction points that negatively affect the player’s enjoyment, for example:
   * Allowing the player to **cancel playing the bicycle music** by pressing ‘B’ when riding the bike to revert to the music attributed to the area they are in, similar to the effect moving into a new area while still on the bike would have.
   * Removing or [**reducing the artificial save delay**](https://www.github.com/pret/pokered/wiki/Remove-Artificial-Save-Delay).
@@ -173,7 +180,6 @@ The following is a fairly comprehensive, but not necessarily exhaustive, list of
 * I’ve often thought about developing **a version of the gen-I games which closely matches the anime**, so maybe this will serve as a good base for that when this project is largely finished? Who knows!
 * After beating the game, maybe **provide limited access to Johto via the SS Aqua** like at the end of Gold/Silver/Crystal, to tie the generations together? Maybe [v2](#Roadmap) could let you play _all_ of Johto with similar enhancements? Also Gold and Silver still had DMC compatibility, so the gen-II games didn’t make use of all colour that was available to it, nor did it use the extra RAM and processing power. Crystal made use of some of the extra RAM or processing power I believe, in order to do the animated in-battle Pokémon sprites but I don’t think it added any additional colour usage (unless I can find evidence to the contrary), so Johto could equally be enhanced colour and graphics wise.
 * [v3](#Roadmap) could include **support for trading and battling with gen-III**, possibly by developing some custom hardware that bridges the different link cable versions, which would allow for genuine trading between generations so that genuine gen-I/II Pokémon could be traded forward to official gen-III games.
-* Sound will largely remain unchanged. It should, however, be possible to **improve the sound quality of Pikachu’s cry and voice clips** in Yellow: can double the sample rate, since the game can now use the GBC-exclusive double CPU clock speed and can utilise more ROM banks to store higher-resolution samples. Might also be able to squeeze some less harsh downsampling out of the effective 2-bit (variable amplitude) bit depth by playing around with different dithering methods and input levels when re-encoding the sound data. This is all assuming I can get hold of the original, uncompressed voice samples from somewhere ([Retro Game Mechanics Explained](https://www.youtube.com/watch?v=fooSxCuWvZ4) managed to find them somewhere).
 
 ## Versions
 
