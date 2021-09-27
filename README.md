@@ -17,10 +17,10 @@
         <a href="#licence">Licence</a>
     </h4>
     <h3>
-        <a href="https://www.github.com/andidavies92">
-            <img src="https://img.shields.io/badge/maintainer-%40andidavies92-yellow">
+        <a href="https://www.github.com/andiemmadavies">
+            <img src="https://img.shields.io/badge/maintainer-%40andiemmadavies-yellow">
         </a>
-        <a href="https://www.github.com/andidavies92/pokemon-rby-dx/commit/e1661bd0de07129225c6af9b5e9706db87920902">
+        <a href="https://www.github.com/AmateurPanda/pokemon-rby-dx/commit/e1661bd0de07129225c6af9b5e9706db87920902">
             <img src="https://img.shields.io/badge/initial%20commit-5th%20september%202019-brightgreen">
         </a>
         <a href="https://www.github.com/AmateurPanda92/pokemon-rby-dx/commits/main">
@@ -44,7 +44,7 @@
 
 ---
 
-_(**tl;dr** – if you just want to try the ROMs out, the [releases](https://github.com/andidavies92/pokemon-rby-dx/releases) tab contains pre-compiled binaries of each version which you can download as is and try-out in any decent GBC emulator.)_
+_(**tl;dr** – if you just want to try the ROMs out, the [releases](https://github.com/AmateurPanda92/pokemon-rby-dx/releases) tab contains pre-compiled binaries of each version which you can download as is and try-out in any decent GBC emulator.)_
 
 This is a work-in-progress fan-made [ROM hack](https://en.wikipedia.org/wiki/ROM_hacking) of the [first-generation](https://en.wikipedia.org/wiki/Pok%C3%A9mon_(video_game_series)#First_generation_(1996%E2%80%931999)) [Pokémon](https://en.wikipedia.org/wiki/Pok%C3%A9mon) [games](https://en.wikipedia.org/wiki/Pokémon_(video_game_series)), which were originally developed for the [Nintendo](https://en.wikipedia.org/wiki/Nintendo) [Game Boy (DMG)](https://en.wikipedia.org/wiki/Game_Boy) and are planned here to be enhanced specifically for the Nintendo [Game Boy Color (GBC)](https://en.wikipedia.org/wiki/Game_Boy_Color). All backwards compatibility with the original Game Boy will be removed so that it doesn’t hold-back what the games might be capable of imagining they were originally intended to be GBC-exclusive titles.
 
@@ -57,12 +57,12 @@ This project is based-on the superb split-assemblies of [Red, Blue](https://www.
 * https://www.github.com/pret/pokered/graphs/contributors
 * https://www.github.com/pret/pokeyellow/graphs/contributors
 
-As it stands, this project is very much a work-in-progress – so much so that there haven’t yet been any changes to the source code, so building the repository will result in two binaries that are bit-perfect copies of known-good dumps of the official releases of Blue and Red (see below). As such, my first goal with this project will be to have a play with the shiny new [GitHub Actions](https://www.github.com/features/actions) platform and get it building the source automatically. As of [v0](https://github.com/andidavies92/pokemon-rby-dx/releases/tag/v0) of this project, the ROMs generated will be the following named entries from the [Cowering GoodTools](http://emulation.gametechwiki.com/index.php/GoodTools) database, and associated message-digest hash, where the _“(UE)”_, _“[S]”_ and _“[!]”_ [codes](http://emulation.gametechwiki.com/index.php/GoodTools#Good_codes) indicate that the ROM binary is for the USA and Europe regions, has special [Super Game Boy](https://en.wikipedia.org/wiki/Super_Game_Boy) integration and is an exact copy of the original game without modifications respectively:
+As it stands, this project is very much a work-in-progress – so much so that there haven’t yet been any changes to the source code, so building the repository will result in two binaries that are bit-perfect copies of known-good dumps of the official releases of Blue and Red (see below). As such, my first goal with this project will be to have a play with the shiny new [GitHub Actions](https://www.github.com/features/actions) platform and get it building the source automatically. As of [v0](https://github.com/AmateurPanda92/pokemon-rby-dx/releases/tag/v0) of this project, the ROMs generated will be the following named entries from the [Cowering GoodTools](http://emulation.gametechwiki.com/index.php/GoodTools) database, and associated message-digest hash, where the _“(UE)”_, _“[S]”_ and _“[!]”_ [codes](http://emulation.gametechwiki.com/index.php/GoodTools#Good_codes) indicate that the ROM binary is for the USA and Europe regions, has special [Super Game Boy](https://en.wikipedia.org/wiki/Super_Game_Boy) integration and is an exact copy of the original game without modifications respectively:
 
 * _“Pokemon Red (UE) [S][!].gb”_ (MD5: `3d45c1ee9abd5738df46d2bdda8b57dc`)
 * _“Pokemon Blue (UE) [S][!].gb”_ (MD5: `50927e843568814f7ed45ec4f944bd8b`)
 
-I will always be keeping this README up-to-date with the state of the codebase, so this will remain a reliable single point-of-truth for the project’s status. Note that this project is primarily a learning tool for me to teach myself GB(C) development and gain more experience with coding in assembly. That being said, I more than welcome contributors to come and get involved, so please do get in-touch (probably via [Twitter](https://www.twitter.com/andidavies92) is best) if you’re interested in helping-out!
+I will always be keeping this README up-to-date with the state of the codebase, so this will remain a reliable single point-of-truth for the project’s status. Note that this project is primarily a learning tool for me to teach myself GB(C) development and gain more experience with coding in assembly. That being said, I more than welcome contributors to come and get involved, so please do get in-touch (probably via [Twitter](https://www.twitter.com/andiemmadavies) is best) if you’re interested in helping-out!
 
 ## Table of contents
 
@@ -357,12 +357,12 @@ A technical reference for any existing hardware or software specifications relev
 <table>
     <tr>
         <td width="200px">
-            <a href="https://www.github.com/andidavies92">
+            <a href="https://www.github.com/andiemmadavies">
                 <img src="andi.png" width="200px">
             </a>
         </td>
         <td>
-            <h4>Andi Emma Davies (<a href="https://www.github.com/andidavies92">@andidavies92</a>)</h4>
+            <h4>Andi Emma Davies (<a href="https://www.github.com/andiemmadavies">@andiemmadavies</a>)</h4>
             <h5>Project lead and lead developer</h5>
             <p>A full-time software engineer by trade and lover of all things retro: I (Andi) have been looking for an excuse for a long time to do some kind of game development, so I devised this open project to coincide with my plans to start a retro gaming YouTube channel, with the hope that this can eventually become a community effort, rather than just a two-person venture.</p>
         </td>
